@@ -1,26 +1,27 @@
-Create an interactive Dice Roller app - Solution Code
-=====================================================
 
-Solution code for the Android Basics in Kotlin: Create an interactive Dice Roller app codelab.
-Starter code for the Android Basics in Kotlin:  Add more conditional behavior in Kotlin codelab.
+Dice Roller App
+=======================
 
-Introduction
-------------
-In this codelab, you build an Android app that rolls a dice and shows the result on screen.
+Sample app that randomly rolls a dice and displays a text-based result on screen.
+Used in the Android Basics with Kotlin course.
 
 Pre-requisites
 --------------
 
-You need to know:
-- How to create and run a "Hello, World!" app in Android Studio.
-- Familiar with using TextViews and ImageViews in an app.
-- How to modify the attributes of a TextView in the Layout Editor.
-- How to extract text into a string resource to make it easier to translate your app and reuse strings.
-- Kotlin programming basics as taught in the previous codelabs.
-
-
+- Android SDK 29
+- Android Build Tools v29.0.3
+- Android Support Repository
 
 Getting Started
 ---------------
 
-1. Download and run the app.
+This sample uses the Gradle build system. To build this project, use the
+"gradlew build" command or use "Import Project" in Android Studio.
+
+Support
+-------
+
+- Stack Overflow: http://stackoverflow.com/questions/tagged/android
+
+Patches are encouraged, and may be submitted by forking this project and
+submitting a pull request through GitHub. Please see CONTRIBUTING.md for more details.
