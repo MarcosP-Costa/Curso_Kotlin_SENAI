@@ -8,28 +8,28 @@
 
     <Button
         android:id="@+id/botaoRolar"
-        android:layout_width="112dp"
-        android:layout_height="63dp"
-        android:text="Rolar"
+        android:layout_width="232dp"
+        android:layout_height="51dp"
+        android:text="Confirmar a Arma"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.311" />
+        app:layout_constraintVertical_bias="0.435" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Role o Dano"
-        android:textSize="24sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.577" />
+        app:layout_constraintVertical_bias="0.588" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -108,7 +108,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/botaoRolar"
-        app:layout_constraintVertical_bias="0.156" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/botaoDano"
@@ -120,6 +120,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/botaoDetalhes"
         app:layout_constraintVertical_bias="0.382" />
+
+    <TextView
+        android:id="@+id/comentarioDano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/botaoRolar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
